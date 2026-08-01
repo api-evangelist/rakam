@@ -1,7 +1,15 @@
 aid: rakam
 name: rakam
-description: rakam is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Rakam is a warehouse-native product analytics platform that lets business and data
+  teams build analytics interfaces without coding, operating directly on the data
+  warehouse (Snowflake, BigQuery, Redshift, Postgres, ClickHouse) without moving or
+  duplicating data. It models data as code via dbt-style recipes and a semantic layer,
+  and offers segmentation, funnel, retention, flow, and SQL reporting plus embeddable
+  dashboards. Rakam originated as an open-source event-collection API (the AGPL rakam-api
+  Java server with Android, iOS, and JavaScript tracker SDKs) and now ships the
+  no-code Rakam Data Platform; the company is joining LiveRamp. Surfaced as a portfolio
+  company of 500 Global and enriched into the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/rakam/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +17,33 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://rakam.io/favicon.ico
 tags:
 - Company
+- Analytics
+- Product Analytics
+- Data Warehouse
+- Business Intelligence
+- Event Tracking
+- dbt
+- Embedded Analytics
+- Semantic Layer
+- Open Source
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,44 @@ maintainers:
 common:
 - type: Website
   url: https://rakam.io
+- type: DeveloperPortal
+  url: https://docs.rakam.io
+- type: Documentation
+  url: https://docs.rakam.io/docs
+- type: GettingStarted
+  url: https://docs.rakam.io/docs/introduction
+- type: GitHubOrganization
+  url: https://github.com/rakam-io
+- type: Blog
+  url: https://rakam.io/blog
+- type: Pricing
+  url: https://rakam.io/pricing
+- type: SignUp
+  url: https://rakam.io/demo
+- type: Login
+  url: https://app.rakam.io/login
+- type: Support
+  url: https://rakam.io/contact-us
+- type: TermsOfService
+  url: https://rakam.io/policy
+- type: PrivacyPolicy
+  url: https://rakam.io/policy
+- type: LLMsTxt
+  url: llms/rakam-llms.txt
+- type: Packages
+  url: packages/rakam-packages.yml
+- type: SDKs
+  url: packages/rakam-packages.yml
+- type: Authentication
+  url: authentication/rakam-authentication.yml
+- type: Components
+  url: components/rakam-components.yml
+- type: WellKnown
+  url: well-known/rakam-well-known.yml
+- type: DomainSecurity
+  url: security/rakam-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 6
+  pass: local-v1

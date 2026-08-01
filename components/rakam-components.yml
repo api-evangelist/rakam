@@ -1,0 +1,19 @@
+generated: '2026-07-20'
+method: searched
+source: https://docs.rakam.io/docs/embedded-dashboards.md
+note: >-
+  Rakam exposes embeddable analytics surfaces for putting warehouse-native reports
+  and dashboards inside third-party web applications. Distinct from server-side SDKs.
+components:
+  - family: Embedded Dashboards
+    kind: embedded-analytics
+    description: >-
+      Embed Rakam dashboards and boards into an external application via signed
+      embed URLs / iframe, scoped to a user or filter context.
+    docs: https://docs.rakam.io/docs/embedded-dashboards
+  - family: Embeds
+    kind: embedded-report
+    description: >-
+      Embed individual reports (segmentation, funnel, retention, SQL) as standalone
+      interactive surfaces.
+    docs: https://docs.rakam.io/docs/embedded-dashboards

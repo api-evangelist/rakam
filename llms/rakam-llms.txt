@@ -1,0 +1,31 @@
+# Rakam Documentation
+
+> Build Analytics Interfaces Without Coding
+
+## Guides
+- [Introduction](https://docs.rakam.io/docs/introduction-1.md)
+- [Supported Warehouses](https://docs.rakam.io/docs/supported-warehouses.md)
+- [Getting Started](https://docs.rakam.io/docs/introduction.md)
+- [Recipe Concept](https://docs.rakam.io/docs/compose.md)
+- [Creating Datasets](https://docs.rakam.io/docs/model-concept.md)
+- [Dataset properties](https://docs.rakam.io/docs/model.md)
+- [Mapping properties](https://docs.rakam.io/docs/mapping.md)
+- [Aggregate properties](https://docs.rakam.io/docs/aggregate-properties.md)
+- [Common field properties](https://docs.rakam.io/docs/field.md)
+- [Measure properties](https://docs.rakam.io/docs/measure.md)
+- [Dimension properties](https://docs.rakam.io/docs/dimension.md)
+- [Relation properties](https://docs.rakam.io/docs/relation.md)
+- [rakam_project.yml Properties](https://docs.rakam.io/docs/rakam_projectyml-properties.md)
+- [Semantic Datasets](https://docs.rakam.io/docs/semantic-models.md)
+- [Dashboards](https://docs.rakam.io/docs/dashboards.md)
+- [Segmentation](https://docs.rakam.io/docs/segmentation.md)
+- [Funnel](https://docs.rakam.io/docs/funnel-1.md)
+- [Retention](https://docs.rakam.io/docs/retention-1.md)
+- [SQL](https://docs.rakam.io/docs/retention-2.md)
+- [Boards](https://docs.rakam.io/docs/boards.md)
+- [Dashboards](https://docs.rakam.io/docs/dashboard.md)
+- [Users & Groups](https://docs.rakam.io/docs/users.md)
+- [SAML Authentication](https://docs.rakam.io/docs/saml-authentication.md)
+- [GSuite Authentication](https://docs.rakam.io/docs/google-oauth2-authentication.md)
+- [Embeds](https://docs.rakam.io/docs/embedded-dashboards.md)
+- [On-premise deployment](https://docs.rakam.io/docs/on-premise-deployment.md)

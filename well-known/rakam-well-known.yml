@@ -1,0 +1,24 @@
+generated: '2026-07-20'
+method: searched
+host: https://rakam.io
+note: >-
+  No /.well-known/ discovery documents are published. The former API host
+  api.rakam.io returns a 301 redirect loop (defunct). Absence recorded as valid data.
+documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+additional_hosts:
+  - host: https://api.rakam.io
+    status: 301
+    note: redirect loop / defunct hosted API
+  - host: https://docs.rakam.io
+    path: /.well-known/security.txt
+    status: 404

@@ -1,0 +1,33 @@
+generated: '2026-07-20'
+method: searched
+source: npm, PyPI, github.com/rakam-io, github.com/buremba
+note: >-
+  Rakam's hosted collection API (api.rakam.io) is defunct (redirect loop) and the
+  company is joining LiveRamp; the open-source event-collection SDKs below remain
+  the first-party client surface. The current Rakam Data Platform (docs.rakam.io)
+  is a warehouse-native no-code BI tool and ships no client SDKs.
+packages:
+  - language: javascript
+    registry: npm
+    name: rakam-js
+    url: https://www.npmjs.com/package/rakam-js
+    install: npm install rakam-js
+    repository: https://github.com/buremba/rakam-javascript
+    description: JavaScript library for Rakam Analytics (authored by Rakam founder buremba)
+    official: true
+  - language: objective-c
+    registry: github
+    name: rakam-ios
+    url: https://github.com/rakam-io/rakam-ios
+    install: CocoaPods / manual (see repo)
+    repository: https://github.com/rakam-io/rakam-ios
+    description: Official Rakam iOS event-tracking SDK
+    official: true
+  - language: python
+    registry: pypi
+    name: rakam
+    url: https://pypi.org/project/rakam/
+    install: pip install rakam
+    repository: https://github.com/kakashit/rakam_client
+    description: Community Python client for the Rakam server API
+    official: false
