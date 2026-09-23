@@ -1,10 +1,18 @@
 generated: '2026-07-20'
 method: searched
 host: https://rakam.io
-note: >-
-  No /.well-known/ discovery documents are published. The former API host
-  api.rakam.io returns a 301 redirect loop (defunct). Absence recorded as valid data.
-documents:
+note: No /.well-known/ discovery documents are published. The former API host api.rakam.io returns a 301
+  redirect loop (defunct). Absence recorded as valid data.
+additional_hosts:
+- host: https://api.rakam.io
+  status: 301
+  note: redirect loop / defunct hosted API
+- host: https://docs.rakam.io
+  path: /.well-known/security.txt
+  status: 404
+hosts:
+- host: https://rakam.io
+  documents:
   - path: /.well-known/security.txt
     status: 404
   - path: /.well-known/openid-configuration
@@ -15,10 +23,8 @@ documents:
     status: 404
   - path: /.well-known/ai-plugin.json
     status: 404
-additional_hosts:
-  - host: https://api.rakam.io
-    status: 301
-    note: redirect loop / defunct hosted API
-  - host: https://docs.rakam.io
-    path: /.well-known/security.txt
-    status: 404
+x-shape-fix:
+  converted: '2026-08-20'
+  from: documents
+  note: Rewritten into hosts[] -> documents[], the only shape well_known_docs() in score.rb reads. A served
+    .well-known surface recorded in any other shape scores as absent.
